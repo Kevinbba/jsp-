@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+.all{
+    height: 100%;
+    position: relative;
+    background-color: rgba(44,124,224,0.5);
+}
+.login{
+    width: 500px;
+    height: 454px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -219px;
+    margin-left: -282px;
+}
+.title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(44,124,224);
+    margin-top: 6px;
+}
+.title_img{
+    text-align: center;
+    margin-top: 20px;
+}
+.username{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.userpassword{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.username input,.userpassword input{
+    border: 0.7px solid #2CDAF8;
+    width:460px;
+    height: 40px;
+    font-size:20px ;
+    text-indent: 20px;
+}
+.submit{
+    text-align: center;
+}
+.submit input{
+    width: 200px;
+    height: 40px;
+    background-color: lightgreen;
+    border: 0;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+}
+.tips{
+    line-height: 41px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: darkgray;
+}

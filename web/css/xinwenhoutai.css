@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.leftPart{
+	display: inline-block;
+}
+.rightPart{
+	display: inline-block;
+}
+.header{
+	width: 100%;
+	text-align: center;
+	background-color: black;
+}
